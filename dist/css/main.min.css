@@ -986,6 +986,8 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
             transform: translate(0, 0); }
 
 @media screen and (max-width: 821px) {
+  .anim {
+    opacity: 1 !important; }
   .left-content {
     background: #143B51;
     border-radius: 4px;
@@ -1100,7 +1102,8 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
       line-height: 4.0000vw; }
   .right-items {
     width: 100%;
-    max-width: none; }
+    max-width: none;
+    padding-bottom: 10vw; }
     .right-items .btn {
       display: -webkit-box;
       display: -ms-flexbox;

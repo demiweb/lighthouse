@@ -458,6 +458,9 @@
 }
 
 @media screen and (max-width: 821px) {
+  .anim {
+    opacity: 1 !important;
+  }
   .left-content {
     background: #143B51;
     border-radius: 4px;
@@ -585,6 +588,7 @@
   .right-items {
     width: 100%;
     max-width: none;
+    padding-bottom: 10vw;
 
     .btn {
       display: flex;
