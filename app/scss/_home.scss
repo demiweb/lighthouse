@@ -96,8 +96,9 @@
     pointer-events: none;
 
     img {
-      width: 100%;
+      width: auto;
       height: 100%;
+      max-width: 72.0833vw;
       object-fit: cover;
     }
   }
@@ -138,7 +139,8 @@
     }
 
     small {
-      background: linear-gradient(183.06deg, #FFDD00 58.05%, #143C53 88.78%), #143B51;
+      //background: linear-gradient(183.06deg, #FFDD00 58.05%, #143C53 88.78%), #143B51;
+      background: linear-gradient(180.07deg,#FFDD00 31.2%,#143D53 80.7%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -377,7 +379,17 @@
     display: none;
   }
 }
-
+@media screen and (max-width: 1920px) and (min-width: 823px) {
+  .left-content {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+}
+@media screen and (max-width: 1700px) and (min-width: 823px) {
+  .left-content {
+    background: linear-gradient(193.8deg, #143B51 85.85%, #FFDD00 85.85%);
+  }
+}
 @media screen and (min-width: 822px) {
   .main-section {
     overflow: hidden;
