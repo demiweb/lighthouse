@@ -103,6 +103,10 @@ function controlForm() {
 
 controlForm();
 
+// document.querySelector('.main-section > p').innerHTML = window.innerWidth;
+
+
+
 
 
 
