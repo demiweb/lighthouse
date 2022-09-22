@@ -1198,6 +1198,12 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
         margin-bottom: auto; }
   .left-content {
     bottom: 7vh; }
+  .form .wpcf7-spinner {
+    display: none; }
+  .form form div:not(.input) {
+    margin-top: 0; }
+    .form form div:not(.input) + .input {
+      margin-top: 0; }
   .form .input input {
     height: 8vh; }
   .form-block > p {

@@ -722,6 +722,19 @@
   .left-content {
     bottom: 7vh;
   }
+  .form {
+    .wpcf7-spinner {
+      display: none;
+    }
+    form {
+      div:not(.input) {
+        margin-top: 0;
+        & + .input {
+          margin-top: 0;
+        }
+      }
+    }
+  }
   .form .input input {
     height: 8vh;
 
