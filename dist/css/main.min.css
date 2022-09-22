@@ -1228,6 +1228,9 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   .form .btn {
     margin-top: 4vh; } }
 
+.checkbox-input input {
+  z-index: 2; }
+
 .modal-bonus {
   position: fixed;
   z-index: 100;
