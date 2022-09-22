@@ -229,7 +229,9 @@
     display: none;
   }
 }
-
+.checkbox-input span {
+  text-align: right;
+}
 .form {
   width: 100%;
   max-width: 16.0417vw;
@@ -251,7 +253,7 @@
   }
   form {
     div:not(.input) {
-      margin-top: 0;
+
       & + .input {
         margin-top: 0;
       }
@@ -553,7 +555,7 @@
   .checkbox-input {
     font-size: 4.5333vw;
     padding-right: 7.1667vw;
-    margin-top: 6.6167vw;
+    margin-top: 6.6167vw !important;
 
     span {
       &::before {
@@ -737,7 +739,7 @@
     }
     form {
       div:not(.input) {
-        margin-top: 0;
+        //margin-top: 0;
         & + .input {
           margin-top: 0;
         }
@@ -764,7 +766,9 @@
     margin-top: 3.3vh;
   }
   .checkbox-input {
-    margin-top: 3.4vh;
+    margin-top: 3.4vh !important;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .form .btn {
     margin-top: 4vh;

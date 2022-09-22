@@ -746,6 +746,9 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   .form-block .close {
     display: none; }
 
+.checkbox-input span {
+  text-align: right; }
+
 .form {
   width: 100%;
   max-width: 16.0417vw;
@@ -770,10 +773,8 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start; }
-  .form form div:not(.input) {
+  .form form div:not(.input) + .input {
     margin-top: 0; }
-    .form form div:not(.input) + .input {
-      margin-top: 0; }
   .form .input {
     width: 100%;
     display: inline-block;
@@ -1074,7 +1075,7 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   .checkbox-input {
     font-size: 4.5333vw;
     padding-right: 7.1667vw;
-    margin-top: 6.6167vw; }
+    margin-top: 6.6167vw !important; }
     .checkbox-input span::before {
       right: 2px;
       width: 5.6000vw;
@@ -1206,10 +1207,8 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
     bottom: 7vh; }
   .form .wpcf7-spinner {
     display: none; }
-  .form form div:not(.input) {
+  .form form div:not(.input) + .input {
     margin-top: 0; }
-    .form form div:not(.input) + .input {
-      margin-top: 0; }
   .form .input input {
     height: 8vh; }
   .form-block > p {
@@ -1223,7 +1222,9 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   .form .input:nth-child(4) {
     margin-top: 3.3vh; }
   .checkbox-input {
-    margin-top: 3.4vh; }
+    margin-top: 3.4vh !important;
+    padding-top: 0;
+    padding-bottom: 0; }
   .form .btn {
     margin-top: 4vh; } }
 
