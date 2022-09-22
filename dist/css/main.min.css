@@ -751,6 +751,8 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   max-width: 16.0417vw;
   margin-top: 2.1875vw;
   margin-right: 0.3646vw; }
+  .form .wpcf7-spinner {
+    display: none; }
   .form form {
     width: 100%; }
     .form form > p {
@@ -768,6 +770,10 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start; }
+  .form form div:not(.input) {
+    margin-top: 0; }
+    .form form div:not(.input) + .input {
+      margin-top: 0; }
   .form .input {
     width: 100%;
     display: inline-block;

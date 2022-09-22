@@ -235,7 +235,9 @@
   max-width: 16.0417vw;
   margin-top: 2.1875vw;
   margin-right: 0.3646vw;
-
+  .wpcf7-spinner {
+    display: none;
+  }
   form {
     width: 100%;
 
@@ -247,7 +249,14 @@
       justify-content: flex-start;
     }
   }
-
+  form {
+    div:not(.input) {
+      margin-top: 0;
+      & + .input {
+        margin-top: 0;
+      }
+    }
+  }
   .input {
     width: 100%;
     display: inline-block;
